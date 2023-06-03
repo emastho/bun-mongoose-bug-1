@@ -6,7 +6,9 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "mongoose": "^7.2.2",
+    "purify-ts": "^2.0.0"
   },
   "devDependencies": {
     "bun-types": "latest"
