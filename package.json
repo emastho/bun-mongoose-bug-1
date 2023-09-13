@@ -6,12 +6,11 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest",
-    "mongoose": "^7.2.2",
-    "purify-ts": "^2.0.0"
+    "bun-types": "^0.6.13",
+    "jose": "^4.14.6"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/node": "^20.3.2"
   },
   "module": "src/index.js"
 }
